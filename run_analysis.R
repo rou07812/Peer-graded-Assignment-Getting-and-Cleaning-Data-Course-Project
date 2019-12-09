@@ -60,3 +60,5 @@ extractedData <- data.table(extractedData)
 tidyData <- aggregate(. ~Subject + Activity, extractedData, mean)
 tidyData <- tidyData[order(tidyData$Subject,tidyData$Activity),]
 write.table(tidyData, file = "TidyData.txt", row.names = FALSE)
+#desciption on variables of final data frame
+str(tidyData)
