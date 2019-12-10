@@ -17,6 +17,22 @@ Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity    and each subject.
 
+Variables:
+featureNames: DataFrame containing features (measured variable lables)
+activityLabels: DataFrame containing activity lables
+subjTrain: DataFrame containing merged data of training subjects
+actvTrain: DataFrame containing merged data of training activities
+featTrain: DataFrame containing merged data of training features
+subjTest: DataFrame containing merged data of test subjects
+actvTest: DataFrame containing merged data of test activities
+featTest: DataFrame containing merged data of test features
+subjMerge: DataFrame containing merged data of training and test subjects
+actvMerge: DataFrame containing merged data of training and test activities
+featMerge: DataFrame containing merged data of training and test features
+completedData: DataFrame containing combined data for test and training
+extractedData: DataTable containing only mean and Std deviation values
+tidyData : DataFrame containing final data
+
 Comments are added in run file but a brief description:
 
 1. Load packages required to run certain functions
